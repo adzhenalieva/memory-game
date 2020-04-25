@@ -1,0 +1,34 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%
+}
+
+.grid img {
+    width: 22%;
+}
+
+@media screen and (min-width: 980px) {
+    .grid {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+.title {
+    font-size: 30px;
+}
+
+.btn {
+    background: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: none;
+}
+
+.wrapper {
+    margin: 20px auto;
+    text-align: center;
+    height: 600px;
+}
